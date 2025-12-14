@@ -1,0 +1,48 @@
+* {
+  font-family: Cairo, sans-serif;
+}
+
+body {
+  background-color: #f7b980;
+  /* background-color: rgb(247, 185, 128); */
+  /* background-color: rgba(247, 185, 128, 0.7); */
+  /* font-family: Cairo, sans-serif; */
+}
+
+#header {
+  background: #001F3D url("https://www.codewithrandom.com/wp-content/uploads/2023/04/Copy-of-codewithrandom11.png") no-repeat center center/cover;
+  color: #E6E6E6;
+  width: 600px;
+  height: 600px;
+  font-family: "Cairo", "Arial", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: lowercase;
+  /* letter-spacing: 20px; */
+  /* text-align: justify; */
+  text-decoration: overline;
+  /* text-decoration-line: overline; */
+
+}
+
+
+p {
+  line-height: 50px;
+  text-align: justify;
+}
+
+a {
+  color: white;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  /* display: inline-block; */
+
+}
+
+ul {
+  list-style-type: none;
+}

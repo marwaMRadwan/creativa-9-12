@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+
+<body>
+  <form method="get" action="./forms.html">
+    <label for="">Name</label>
+    <input type="text" name="username" placeholder="Enter your name" id="name" class="form-control">
+    <br>
+    <label for="">Age</label>
+    <input type="number" name="age" value="35" required step="2">
+    <br>
+    <label>Email
+      <input type="email" name="email" id="email">
+    </label>
+    <br>
+    <label for="">Password</label>
+    <input type="password" name="password">
+    <br>
+    <label for="">Accept</label>
+    <input type="checkbox" name="toc" value="1" checked disabled>
+    <br>
+    <label for="">Gender</label>
+    <input type="radio" name="gender" id="" value="male" checked> Male
+    <input type="radio" name="gender" id="" value="female"> Female
+    <br>
+    <select name="state" id="">
+      <option disabled>Select</option>
+      <option value="Cairo">Cairo</option>
+      <option value="alex" selected>alex</option>
+    </select>
+    <br>
+    <textarea name="comment" id="">shshhshs</textarea>
+    <br>
+    <input type="date" name="" id="">
+    <input type="color" name="" id="">
+    <input type="file" name="" id="">
+    <input type="hidden" name="name" value="1234" id="">
+    <!-- <input type="submit" value="Save"> -->
+    <button type="submit">Submit</button>
+  </form>
+
+
+</body>
+
+</html>

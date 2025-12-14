@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.my-5{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    background-color: #5D5FEF;
+    width: 40%;
+    border-radius: 1rem;
+    padding: 5% 2.5%;
+    text-align: center;
+}
+.card img{
+    width: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+.card p{
+    margin: 3% 0;
+    color: lightgray
+}
+.card i{
+    color:yellow
+}
