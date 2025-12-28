@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    perspective: 600px;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* .x{
+    height: 100vh;
+    width: 20%;
+    background-color: aqua;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.x div{
+    text-align: center;
+} */
+
+/* .w-20{
+    width: 20%;
+    border-right: 3px solid black;
+}
+.px-2{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.my-3{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+ul{
+    list-style-type: none;
+}
+.tag-item{
+    background-color: aliceblue;
+    padding: 1% 5%;
+    margin: 2% 5% 2% 0;
+    border-radius: 15px;
+} */
+
+
+/* .test{
+    /* position: relative; */
+ /*   height: 10rem;
+    width: 20%;
+    margin: 5% auto;
+    background-color: blueviolet;
+    transition: height 3s ,background-color 5s; */
+    /* transform: scale(5); */
+    /* transition: all 3s;
+    color: white;
+    backface-visibility: hidden;
+} */
+/* .a{
+    position: absolute;
+    height: 30%;
+    width: 20%;
+    background-color: red; */
+    /* bottom: 0;
+    right: 0; */
+/* } */
+/* .test:hover{ */
+    /* background-color: red;
+    */
+    /* height: 100vh;  */
+    /* transform: scale(5,50);
+    transform-origin: top left ; */
+    /* transform: skew(10deg) scale(1.2); */
+    /* transform: rotateY(180deg);
+} */
+ /* .x{
+    width:100%;
+    height: 5rem;
+    background-color: black;
+ } */
+
+ .card{
+    height: 25rem;
+    width:25%;
+    margin: 5% auto;
+    position: relative;
+ }
+.front, .back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 1s;
+    backface-visibility: hidden;
+    color: white;
+    padding: 3%;
+}
+.front{
+    background-color: red;
+}
+.back{
+    background-color: blue;
+    transform: rotateX(180deg);
+}
+.card:hover .front{
+    transform: rotateX(180deg);
+}
+.card:hover .back{
+    transform: rotateX(0deg);
+}
+.text{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    padding: 5%;
+    transition: all 0.5s;
+}
+
+.card:hover .text{
+    bottom: 50%;
+}
