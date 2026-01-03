@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .w-30{
+    width: 20%;
+    margin: 5% auto;
+}
+.text-center{
+    text-align: center;
+}
+.card{
+    height: 25rem;
+    background-color: antiquewhite;
+    overflow: hidden;
+
+}
+.card img{
+    height: 100%;
+    width:100%; */
+    /* display: flex;
+    flex-direction: column; */
+    /* transition: all 2s;
+}
+.card:hover img{ */
+    /* transform: scale(0.5); */
+    /* width:50%;
+    padding-top: ; */
+    /* height: 70%;
+    width:80%;
+    padding: 7.5% 5% 2%; 
+} */
+
+/* text-align, align-items, align-content, margin:auto */
+
+/* 
+.x{
+    width:20%;
+
+} */
+
+
+/* input:focus{
+    border: 3px solid red;
+    width: 100%;
+}
+input:hover img{
+    border: 3px solid green;
+    width: 50%;
+} */
+
+/* div{
+    background-color: red;
+    width:15%;
+    aspect-ratio: 1/1; */
+    /* transition: 1s; */
+    /* animation-name: move;
+    animation-duration:  10s;
+    animation-iteration-count: infinite;
+} */
+/* div:hover{
+    margin-left: 5%;
+} */
+
+/* @keyframes move {
+    0%{
+        margin-top: 0;
+        margin-left: 0;
+        background-color: red;
+    }
+    25%{
+        margin-top: 0;
+        margin-left: 10%;
+        background-color: blue;
+    }
+    50%{
+        margin-top: 10%;
+        margin-left: 10%;
+        background-color: blue;
+
+    }
+    75%{
+        margin-top: 10%;
+        margin-left: 0%;
+        background-color: blue;
+
+    }
+    100%{
+        margin-top: 0;
+        margin-left: 0%;
+        background-color: blue;
+
+    }
+} */
+
+/* div{
+    height: 5rem;
+    background-color: aquamarine;
+    overflow: hidden; */
+    /* position: relative; */
+/* }
+div p{
+    line-height: 5rem;
+    width:fit-content;
+    padding-left:5% ;
+    padding-right: 5%;
+    color: white; */
+    /* position: absolute; */
+/* }
+
+p:nth-child(1){
+    background-color: red;
+    animation: show 5s linear infinite;
+
+}
+p:nth-child(2){
+    background-color: blue; */
+    /* top:100% */
+/* }
+p:nth-child(3){
+    background-color: green;
+    /* top:200% */
+/*}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+} */
+
+
+div{
+    background-color: red;
+    width:15%;
+    aspect-ratio: 1/1;
+    animation-name: move;
+    animation-duration: 2s;
+    /* animation-timing-function: ; */
+    /* animation-delay: 1s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: alternate; */
+    /* alternate alternate-reverse reverse*/
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* backwards */
+    animation-fill-mode: forwards; 
+
+} 
+
+@keyframes move {
+    from{
+        margin-left: 0;
+    }
+    to{
+        margin-left: 20%;
+    }
+    
+}
+
+
+.container-full{
+    width:100%;
+    overflow-x: hidden ;
+}
+.container{
+    width: 95%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.bg-light{
+    background-color: azure;
+}
