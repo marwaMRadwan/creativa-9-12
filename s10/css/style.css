@@ -1,0 +1,11 @@
+.carousel-item img{
+    height: 25rem;
+}
+
+.carousel-indicators button{
+    height: 5rem!important;
+    width: 5rem!important;
+}
+body{
+    height: 5000px;
+}
