@@ -1,0 +1,25 @@
+.nav-link{
+    color: white !important;
+}
+.nav-link.active{
+    color: rgb(178, 56, 56) !important;
+}
+.navbar-brand img{
+    max-height: 2.5rem;
+}
+/* .show-my-div:hover .x{
+    display: flex!important;
+} */
+ .carousel-item img{
+    height: 60vh;
+ }
+
+ .carousel-indicators button{
+    height: 2rem!important;
+    width: 2rem!important;
+    text-indent:0!important;
+ }
+ .carousel-indicators{
+    left: 50% !important;
+    bottom: 50%!important;
+ }
